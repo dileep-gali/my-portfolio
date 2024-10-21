@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inconsolata&family=Roboto&family=Source+Code+Pro&family=Segoe+UI&display=swap');
+
+.skills {
+    padding: 60px 0; /* Top and bottom padding */
+    text-align: center; /* Center-align the section content */
+  }
+  
+  h2 {
+    font-size: 2.5rem; /* Heading size */
+    margin-bottom: 30px; /* Space below heading */
+    color: #2c3e50; /* Dark gray for professionalism */
+  }
+  
+  .skills-list {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Flexbox for alignment */
+    flex-wrap: wrap; /* Wrap items to the next line if needed */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  .skill-item {
+    font-size: 1.5rem; /* Font size for skills */
+    margin: 10px 20px; /* Margin around each skill */
+    padding: 10px 15px; /* Padding for visual spacing */
+    border-radius: 5px; /* Slightly rounded corners */
+    color: #fff; /* White text color */
+    transition: transform 0.3s; /* Smooth hover effect */
+  }
+  
+  /* Specific styling for each skill with related fonts and background colors */
+  .react {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* React font */
+    background-color: #61dafb; /* React logo color */
+  }
+  
+  .javascript {
+    font-family: 'Fira Code', monospace; /* JavaScript font */
+    background-color: #f7df1e; /* JavaScript logo color */
+  }
+  
+  .nodejs {
+    font-family: 'Ubuntu', sans-serif; /* Node.js font */
+    background-color: #8cc84b; /* Node.js logo color */
+  }
+  
+  .mongodb {
+    font-family: 'Roboto', sans-serif; /* MongoDB font */
+    background-color: #4DB33D; /* MongoDB logo color */
+  }
+  
+  .html-css {
+    font-family: 'Droid Sans', sans-serif; /* HTML & CSS font */
+    background-color: #e44d26; /* HTML color */
+  }
+  
+  .express {
+    font-family: 'Source Code Pro', monospace; /* Express.js font */
+    background-color: #000; /* Black background for Express.js */
+  }
+  
+  .git {
+    font-family: 'Courier New', monospace; /* Git font */
+    background-color: #f05032; /* Git logo color */
+  }
+  
+  .typescript {
+    font-family: 'Inconsolata', monospace; /* TypeScript font */
+    background-color: #007acc; /* TypeScript logo color */
+  }
+  
+  .azure {
+    font-family: 'Arial', sans-serif; /* Azure font */
+    background-color: #0089d6; /* Microsoft Azure color */
+  }
+  
+  .sql {
+    font-family: 'Inconsolata', monospace; /* SQL font */
+    background-color: #f29111; /* SQL logo color */
+  }
+  
+  .jira {
+    font-family: 'Source Code Pro', monospace; /* Jira font */
+    background-color: #0052cc; /* Jira logo color */
+  }
+  
+  .skill-item:hover {
+    transform: scale(1.1); /* Scale up on hover */
+  }
+  

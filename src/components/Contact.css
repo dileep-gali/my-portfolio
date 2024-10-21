@@ -1,0 +1,106 @@
+.contact {
+  padding: 80px 0; /* Top and bottom padding */
+}
+
+.contact-container {
+  max-width: 600px; /* Set a maximum width for the form */
+  margin: 0 auto; /* Center the container */
+  padding: 0 20px; /* Add horizontal padding */
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  text-align: center; /* Center the heading */
+  margin-bottom: 40px; /* Space below heading */
+}
+
+.contact-form {
+  background-color: #ffffff; /* White background for the form */
+  padding: 40px; /* Inner padding for form */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%; /* Full width inputs */
+  padding: 12px;
+  border: 2px solid #e0e0e0; /* Light gray border */
+  border-radius: 5px; /* Slightly rounded corners */
+  font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #3498db; /* Change border color on focus */
+}
+
+.form-group textarea {
+  min-height: 150px; /* Set a minimum height for textarea */
+}
+
+.error-message {
+  color: #e74c3c; /* Red color for error messages */
+}
+
+button[type="submit"] {
+  background-color: #3498db; /* Primary button color */
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform .2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.success-message,
+.error-message {
+    text-align: center;
+    margin-top:20px;
+    padding:10px;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.success-message {
+    background-color:#2ecc71; 
+    color:#ffffff;
+}
+
+.error-message {
+    background-color:#e74c3c; 
+    color:#ffffff;
+}
+
+/* Responsive design adjustments */
+@media (max-width:768px) {
+    .contact-container {
+        padding:0; /* Remove horizontal padding on small screens */
+        width:90%; /* Allow more width on smaller screens */
+    }
+
+    .contact h2 {
+        font-size:2rem; /* Smaller heading size on mobile */
+    }
+
+    button[type="submit"] {
+        font-size:16px; /* Smaller button text on mobile */
+    }
+}

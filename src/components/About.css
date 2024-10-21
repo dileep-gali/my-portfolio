@@ -1,0 +1,44 @@
+.about-section {
+    padding: 60px 0;
+    text-align: left; /* Left-align text for a more professional look */
+    
+  }
+  
+  .container {
+    max-width: 1200px; /* Wider container for better content flow */
+    margin: 0 auto;
+    padding: 0 20px; /* Add horizontal padding */
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark gray for professionalism */
+    font-weight: 700; /* Bold heading */
+    text-align: center; /* Center heading */
+  }
+  
+  .about-text {
+    font-size: 1.1rem; /* Slightly larger text for readability */
+    color: #34495e; /* Darker text color for better contrast */
+    line-height: 1.6; /* Improved line height */
+    margin-bottom: 20px;
+    max-width: 800px; /* Constrain text width for better readability */
+    margin-left: auto; /* Center paragraphs */
+    margin-right: auto;
+  }
+  
+  .about-text:last-child {
+    margin-bottom: 0; /* Remove margin for the last paragraph */
+  }
+  
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 2rem; /* Adjust heading size on smaller screens */
+    }
+  
+    .about-text {
+      font-size: 1rem; /* Adjust paragraph text size on smaller screens */
+    }
+  }
+  
