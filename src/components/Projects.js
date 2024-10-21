@@ -8,8 +8,8 @@ const projects = [
     shortDescription: "Developed a dynamic, responsive personal portfolio using React.js, JavaScript, and CSS3, featuring custom animations and interactive elements to showcase my projects and professional experience.",
     fullDescription: "I developed a dynamic and responsive personal portfolio using React.js, JavaScript, and CSS3, designed to effectively showcase my projects and professional experience. The portfolio features custom animations and interactive elements that enhance user engagement, providing an intuitive browsing experience across various devices. By leveraging React's component-based architecture, I ensured a clean and maintainable code structure while emphasizing best practices in web development. This project not only highlights my technical skills but also reflects my commitment to creating visually appealing and user-friendly web applications. ",
     technologies: ["React", "CSS", "Framer Motion"],
-    liveDemo: "https://your-portfolio-url.com",
-    github: "https://github.com/yourusername/portfolio"
+    liveDemo: "https://my-portfolio-r5bx.vercel.app/",
+    github: "https://github.com/dileep-gali/my-portfolio"
   },
   {
     name: "NutriNest",
